@@ -15,3 +15,9 @@ if (index !== -1) {
 }
 
 console.log(todos)
+
+todos.push({id: 2, title: 'Get some rest', completed: false});
+
+todos.forEach(todo => {
+    console.log(todo)
+})
